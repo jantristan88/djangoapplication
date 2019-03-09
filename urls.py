@@ -6,9 +6,8 @@ import views
 urlpatterns = [
     path('', views.index),
     path('FeatureProject', views.featureproject),
-    path('github-api-example', views.github_api_example),
     path('Publication',views.publication),
-    path('Github', views.github_api_example),
+    path('GitHub', views.github_api_example),
 ]
 
 # Boilerplate to include static files
